@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sh-albarrak"
+version = "0.1.0"
+description = "A simple web scraper to grab mp3 files form https://sh-albarrak.com"
+authors = ["yshalsager <ysh-alsager@hotmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.22.0"
+beautifulsoup4 = "^4.10.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
